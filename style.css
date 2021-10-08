@@ -7,6 +7,16 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+
+
+.text-services{
+    font-size: 1.5rem;
+}
+
+.img-comment{
+    width: 100%;
+    max-width: 550px;
+}
 a,
 button {
     transition: all .3s ease-in-out;
@@ -660,6 +670,7 @@ a {
 
 .hero-bloc-text {
     font-size: 38px;
+    color: white!important;
 }
 
 .hero-bloc-text-sub {
@@ -774,12 +785,10 @@ h4 {
     background-color: #F3976C;
 }
 
-.tc-white {
-    color: #F3976C!important;
-}
+
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #ca693c;
     color: #FFFFFF!important;
 }
 
