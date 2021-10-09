@@ -13,9 +13,23 @@ body {
     font-size: 1.5rem;
 }
 
-.img-comment{
-    width: 100%;
-    max-width: 550px;
+.comment{
+    font-family: "Helvetica", "sans-serif";
+    font-size: 2rem;
+    font-weight: 500;
+    font-style: italic;
+    width: 90%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.comment-underlign{
+    font-family: "Helvetica", "sans-serif";
+    font-size: 1.4rem;
+}
+
+.color-text{
+   color:#FCCF69!important;
 }
 a,
 button {
@@ -670,7 +684,6 @@ a {
 
 .hero-bloc-text {
     font-size: 38px;
-    color: white!important;
 }
 
 .hero-bloc-text-sub {
@@ -748,6 +761,7 @@ h4 {
 
 .white {
     color: #FFFFFF!important;
+    font-size: 1.5rem;
 }
 
 .portfolio-thumb {
