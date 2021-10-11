@@ -8,7 +8,6 @@ body {
 }
 
 
-
 .text-services{
     font-size: 1.5rem;
 }
@@ -21,6 +20,10 @@ body {
     width: 90%;
     max-width: 600px;
     margin: 0 auto;
+}
+
+.margin-bottom{
+    margin-bottom: 60px;
 }
 
 .comment-underlign{
@@ -157,7 +160,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color:white;
 }
 
 .d-bloc .a-btn:hover,
@@ -723,7 +726,7 @@ p {
     font-weight: 700;
 }
 
-.social {
+.social, .twitter, .facebook, .dribbble, .instagram {
     max-width: 400px;
     margin: auto auto auto auto;
 }
@@ -796,13 +799,13 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #fc7232;
 }
 
 
 
 .btn-atomic-tangerine {
-    background: #ca693c;
+    background: #fc7232;
     color: #FFFFFF!important;
 }
 
