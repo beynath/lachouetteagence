@@ -465,6 +465,7 @@ nav .caret {
 .mg-md {
     margin-top: 10px;
     margin-bottom: 20px;
+    
 }
 
 .mg-lg {
@@ -734,6 +735,7 @@ p {
 h2 {
     font-size: 22px;
     line-height: 1.4em;
+    color: black;
 }
 
 h3 {
