@@ -7,6 +7,9 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+.address{
+    font-size: 1.5rem;
+}
 
 .text-services{
     font-size: 1.5rem;
@@ -831,6 +834,7 @@ h4 {
 
 .ltc-white {
     color: #FFFFFF!important;
+    font-size: 1.4rem;
 }
 
 .ltc-white:hover {
