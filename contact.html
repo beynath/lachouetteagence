@@ -1,9 +1,7 @@
 <!doctype html>
-<html lang="Default">
+<html lang="fr">
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="">
-    <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <link rel="shortcut icon" type="image/png" href="favicon.jpg">
     
@@ -21,6 +19,9 @@
 	<script src="./js/formHandler.js"></script>
 
     <title>Contactez-nous ! Web design pour les entreprises Lyonnaises</title>
+
+	<meta name="description" content="Développez votre entreprise et attirez de nouveaux clients avec notre agence de web design, experte en création de site-web, basée à Lyon !">
+	<meta name="robots" content="index, follow"> 
 
     
 
@@ -86,25 +87,25 @@
 						<div class="form-group">
 							<label>
 								Nom
+							<input id="name" class="form-control" type="text" value="Tapez votre nom ici" required />
 							</label>
-							<input id="name" class="form-control" required />
 						</div>
 						<div class="form-group">
 							<label>
 								Adresse email
+								<input id="email" class="form-control" type="email" value="Tapez votre e-mail ici" required />
 							</label>
-							<input id="email" class="form-control" type="email" required />
 						</div>
 						<div class="form-group">
 							<label>
 								Comment nous avez-vous connu ?
+								<input class="form-control" type="text" id="input_504" value="Facebook, Twitter..." required />
 							</label>
-							<input class="form-control" type="email" required id="input_504" />
 						</div>
 						<div class="form-group">
 							<label>
 								Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-							</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
+							</label><textarea id="message" class="form-control" rows="4" cols="50" required>Décrivez votre projet...</textarea>
 						</div> 
 						<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
 							Envoyer
